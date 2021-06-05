@@ -21,6 +21,5 @@ int cbinsearch(int *arr, int size, int value) {
       r = mid; }
     else {
       l = mid+1; }
-    )
-  return 0; // если ничего не найдено
-}
+  }
+  return 0; }
